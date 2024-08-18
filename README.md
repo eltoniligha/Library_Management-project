@@ -1,20 +1,21 @@
-# Library_Management-project
-This project is a Django application that interacts with a Flask API to manage a collection of books. The application allows users to view, add, update, and delete books, as well as display books retrieved from the Flask API.
+# Django Library Management System
+
+This is a Django-based Library Management System that allows users to manage books, members, and transactions.
+
+## Features
+- List, view, add, update, and delete books.
+- List, view, add, update, and delete members.
+- Integration with an external Flask API.
+
+## Prerequisites
+- Python 3.x
+- pip (Python package installer)
+- Git (for cloning the repository)
 
 ## Setup Instructions
 
-Follow these steps to set up the project on your local machine:
+### 1. Clone the Repository
 
-### Prerequisites
-
-- Python 3.x
-- Django 4.x
-- Flask (for the API)
-- `requests` library
-
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone <your-repository-url>
-   cd library_management
+```bash
+git clone <repository-url>
+cd django-library-management  # Navigate to your project directory
